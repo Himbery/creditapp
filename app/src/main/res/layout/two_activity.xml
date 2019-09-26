@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FF7189"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/menu_fr"/>
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:background="@drawable/back_but"
+        android:layout_alignParentLeft="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29.29dp"/>
+    <TextView
+        android:layout_width="238dp"
+        android:layout_height="43dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:textColor="#ffffff"
+        android:text="Если на Вас подали в суд"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="Montserrat"
+        android:gravity="top"
+        />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/menu_fr">
+    </androidx.viewpager.widget.ViewPager>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/ads_banner_id" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

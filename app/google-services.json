@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "114358206500",
+    "firebase_url": "https://anticredit-b7bb0.firebaseio.com",
+    "project_id": "anticredit-b7bb0",
+    "storage_bucket": "anticredit-b7bb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114358206500:android:64dd6c542fad1b9f",
+        "android_client_info": {
+          "package_name": "com.testytest.antiCredit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114358206500-sglgom3so9t8hmb0fk0172nuucbahqvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc6dxbcIAdB0kBQNV_BTTIdIq_iKo1fl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114358206500-sglgom3so9t8hmb0fk0172nuucbahqvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114358206500:android:1e5214f1edb8ec9e",
+        "android_client_info": {
+          "package_name": "com.testytest.cr_lifehack_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114358206500-sglgom3so9t8hmb0fk0172nuucbahqvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc6dxbcIAdB0kBQNV_BTTIdIq_iKo1fl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114358206500-sglgom3so9t8hmb0fk0172nuucbahqvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#121421">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/one_tv"
+        android:text="Не будь должником"
+        android:textSize="27sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:shadowColor="#40000000"
+        />
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="45dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginLeft="128dp"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--android:text="кредит"-->
+        <!--android:textSize="37sp"-->
+        <!--android:textColor="#4151EE"-->
+        <!--android:textStyle="bold"-->
+        <!--android:shadowColor="#40000000"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="45dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginLeft="251dp"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--android:text=" ? "-->
+        <!--android:textSize="37sp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textStyle="bold"-->
+        <!--android:shadowColor="#40000000"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="310dp"-->
+        <!--android:layout_height="70dp"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/one_tv"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:layout_marginTop="7dp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:text="Не плати лишнее и спи спокойно"-->
+        <!--android:textSize="15sp"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/one_tv"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="советы"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/advice_tv"/>
+
+        <Button
+            android:id="@+id/one_button"
+            android:layout_width="wrap_content"
+            android:layout_height="112dp"
+            app:layout_constraintTop_toBottomOf="@id/advice_tv"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/blue_button"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="@id/one_button"
+            android:layout_marginLeft="30dp"
+            app:layout_constraintBottom_toBottomOf="@id/one_button"
+            android:layout_marginBottom="19dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:text="Жизненно \nважно знать!"
+            android:textStyle="bold"
+            android:elevation = "2dp"
+            android:fontFamily="Montserrat"
+            android:gravity="top"/>
+
+        <Button
+            android:id="@+id/two_button"
+            android:layout_width="wrap_content"
+            android:layout_height="112dp"
+            android:layout_marginTop="17dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/advice_tv"
+            android:background="@drawable/green_button"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/two_button"
+            app:layout_constraintLeft_toLeftOf="@id/two_button"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="19dp"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:elevation = "2dp"
+            android:text="Если на Вас \nподали в суд"
+            android:textStyle="bold"
+            android:gravity="top"
+            android:fontFamily="Montserrat"/>
+
+        <Button
+            android:id="@+id/three_button"
+            android:layout_width="wrap_content"
+            android:layout_height="112dp"
+            android:layout_marginTop="110dp"
+            app:layout_constraintTop_toBottomOf="@id/advice_tv"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:background="@drawable/red_button"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="19dp"
+            app:layout_constraintBottom_toBottomOf="@id/three_button"
+            app:layout_constraintLeft_toLeftOf="@id/three_button"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:text="Не бойтесь \nбанкротства"
+            android:textStyle="bold"
+            android:elevation = "2dp"
+            android:fontFamily="Montserrat"
+            android:gravity="top"/>
+
+        <Button
+            android:id="@+id/four_button"
+            android:layout_width="wrap_content"
+            android:layout_height="112dp"
+            app:layout_constraintTop_toBottomOf="@id/advice_tv"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="202dp"
+            android:background="@drawable/orange_button"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/four_button"
+            app:layout_constraintLeft_toLeftOf="@id/four_button"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="19dp"
+            android:text="Взять кредит \nпод 0%"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:elevation = "2dp"
+            android:fontFamily="Montserrat"
+            android:gravity="top"/>
+        
+        <Button
+            android:id="@+id/five_button"
+            android:layout_width="wrap_content"
+            android:layout_height="112dp"
+            app:layout_constraintTop_toBottomOf="@id/advice_tv"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="202dp"
+            android:background="@drawable/blue_button_two"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/five_button"
+            app:layout_constraintLeft_toLeftOf="@id/five_button"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="19dp"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:fontFamily="Montserrat"
+            android:gravity="top"
+            android:elevation = "2dp"
+            android:text="Не бойтесь \nколлекторов"
+            />
+
+        <Button
+            android:id="@+id/six_button"
+            android:layout_width="wrap_content"
+            android:layout_height="112dp"
+            app:layout_constraintTop_toBottomOf="@id/advice_tv"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="294dp"
+            android:background="@drawable/green_button_two"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:elevation = "2dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/six_button"
+            app:layout_constraintLeft_toLeftOf="@id/six_button"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="19dp"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:fontFamily="Montserrat"
+            android:gravity="top"
+            android:text="Как правильно брать и \nплатить кредит"/>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/ads_banner_id" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
